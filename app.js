@@ -59,7 +59,7 @@ app.post('', (req, res) => {
 
   // name of the input is sampleFile
   sampleFile = req.files.sampleFile;
-  uploadPath = __dirname + './upload/' + sampleFile.name;
+  uploadPath = __dirname + '/upload/' + sampleFile.name;
 
   console.log(sampleFile);
 
