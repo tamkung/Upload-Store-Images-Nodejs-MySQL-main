@@ -20,11 +20,11 @@ app.set('view engine', 'hbs');
 // Connection Pool
 const pool = mysql.createPool({
   connectionLimit: 10,
-  host: 'localhost',
-  user: 'root',
-  port: '3307',
-  password: '',
-  database: 'userprofile'
+  host: "ap-southeast.connect.psdb.cloud",
+  user: "315tbrkooe37c1c3ih5b",
+  password: "pscale_pw_fpzwYnqTEK38acUZFp0thOIBDTcgeKWmFOYRXIGpHUr",
+  database: "test",
+  ssl: {}
 });
 
 pool.getConnection((err, connection) => {
